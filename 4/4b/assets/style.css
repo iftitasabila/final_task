@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card img {
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.card-img-top {
+    max-height: 150px; /* Atur tinggi maksimal gambar */
+    object-fit: contain; /* Sesuaikan gambar agar muat di dalam card tanpa mengubah aspek rasio */
+    padding: 10px; /* Tambahkan padding agar gambar tidak menempel ke tepi card */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.card-title, .card-text, .btn {
+    margin-bottom: 10px;
+}
